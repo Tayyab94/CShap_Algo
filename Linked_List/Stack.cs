@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using ClassLibrary1;
 
 namespace Linked_List
 {
@@ -30,12 +31,25 @@ namespace Linked_List
 
             //Console.ReadKey();
 
+            //QuerClASS querClASS = new QuerClASS(3);
+
+            //querClASS.inQue(112);
+
+            //querClASS.inQue(122);
+            //querClASS.inQue(212);
+            //querClASS.inQue(22);
+
+            //querClASS.view();
+
+            ////Built in Stack 
+
+            //DemoStack();
 
 
+            BuiltInQueue.Demo();
 
-            //Built in Stack 
-
-            DemoStack();
+            Console.ReadKey();
+           
 
         }
 
