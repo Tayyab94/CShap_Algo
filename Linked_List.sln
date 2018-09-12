@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linked_List", "Linked_List\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queue", "Queue", "{B6452179-EE28-4FEF-BD5B-44AFE67C6D5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{A400BDC0-4BF4-4A8C-B9D2-93049D9CF0E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{A400BDC0-4BF4-4A8C-B9D2-93049D9CF0E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lenear_Algo", "Lenear_Algo", "{D8683B13-FED3-4694-A81F-141EDD9A41DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lenear", "lenear\lenear.csproj", "{B802692D-D683-4CD3-AD8B-9F0BB8814207}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +27,17 @@ Global
 		{A400BDC0-4BF4-4A8C-B9D2-93049D9CF0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A400BDC0-4BF4-4A8C-B9D2-93049D9CF0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A400BDC0-4BF4-4A8C-B9D2-93049D9CF0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B802692D-D683-4CD3-AD8B-9F0BB8814207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B802692D-D683-4CD3-AD8B-9F0BB8814207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B802692D-D683-4CD3-AD8B-9F0BB8814207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B802692D-D683-4CD3-AD8B-9F0BB8814207}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A400BDC0-4BF4-4A8C-B9D2-93049D9CF0E8} = {B6452179-EE28-4FEF-BD5B-44AFE67C6D5B}
+		{B802692D-D683-4CD3-AD8B-9F0BB8814207} = {D8683B13-FED3-4694-A81F-141EDD9A41DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1BA60624-8B63-4D2A-AF1C-C45A17808C0B}

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using ClassLibrary1;
+using lenear;
 
 namespace Linked_List
 {
@@ -49,7 +50,16 @@ namespace Linked_List
             BuiltInQueue.Demo();
 
             Console.ReadKey();
-           
+
+
+            int[] arry = { 1, 3, 4, 6, 7, 8, 345, 2 };
+            int re = 4;
+            Class1 class1 = new Class1();
+
+        int res=Class1.LenearSearch(arry, re);
+            Console.WriteLine("The Lenear Search Number is  {0}", res);
+            Console.ReadKey();
+            
 
         }
 
