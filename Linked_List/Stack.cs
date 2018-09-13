@@ -59,6 +59,9 @@ namespace Linked_List
         int res=Class1.LenearSearch(arry, re);
             Console.WriteLine("The Lenear Search Number is  {0}", res);
             Console.ReadKey();
+
+            Class1.BuiltIn();
+            
             
 
         }
